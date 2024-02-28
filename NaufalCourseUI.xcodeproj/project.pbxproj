@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		DB8F346B2B8EE34E00E3B7ED /* NaufalCourseUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F346A2B8EE34E00E3B7ED /* NaufalCourseUIApp.swift */; };
-		DB8F346D2B8EE34E00E3B7ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F346C2B8EE34E00E3B7ED /* ContentView.swift */; };
-		DB8F346F2B8EE35000E3B7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F346E2B8EE35000E3B7ED /* Assets.xcassets */; };
 		DB8F34722B8EE35000E3B7ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F34712B8EE35000E3B7ED /* Preview Assets.xcassets */; };
+		DB8F34792B8EE36E00E3B7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F34782B8EE36E00E3B7ED /* Assets.xcassets */; };
+		DB8F347F2B8EE39F00E3B7ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F347C2B8EE39F00E3B7ED /* ContentView.swift */; };
+		DB8F348A2B8EE3DA00E3B7ED /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34852B8EE3D900E3B7ED /* CourseCardView.swift */; };
+		DB8F348B2B8EE3DA00E3B7ED /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34882B8EE3D900E3B7ED /* CustomTabView.swift */; };
+		DB8F348C2B8EE3DA00E3B7ED /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34872B8EE3D900E3B7ED /* Email.swift */; };
+		DB8F348D2B8EE3DA00E3B7ED /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34842B8EE3D900E3B7ED /* TabButton.swift */; };
+		DB8F348E2B8EE3DA00E3B7ED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34892B8EE3DA00E3B7ED /* DetailView.swift */; };
+		DB8F348F2B8EE3DA00E3B7ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34862B8EE3D900E3B7ED /* Home.swift */; };
+		DB8F34912B8EE4F700E3B7ED /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F34902B8EE4F700E3B7ED /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB8F34672B8EE34E00E3B7ED /* NaufalCourseUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaufalCourseUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8F346A2B8EE34E00E3B7ED /* NaufalCourseUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaufalCourseUIApp.swift; sourceTree = "<group>"; };
-		DB8F346C2B8EE34E00E3B7ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DB8F346E2B8EE35000E3B7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8F34712B8EE35000E3B7ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8F34782B8EE36E00E3B7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8F347C2B8EE39F00E3B7ED /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../Downloads/kavsoft-swiftui-animations-main/CourseAppUI/CourseAppUI/ContentView.swift"; sourceTree = "<group>"; };
+		DB8F34842B8EE3D900E3B7ED /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		DB8F34852B8EE3D900E3B7ED /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
+		DB8F34862B8EE3D900E3B7ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DB8F34872B8EE3D900E3B7ED /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		DB8F34882B8EE3D900E3B7ED /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		DB8F34892B8EE3DA00E3B7ED /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DB8F34902B8EE4F700E3B7ED /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +65,16 @@
 		DB8F34692B8EE34E00E3B7ED /* NaufalCourseUI */ = {
 			isa = PBXGroup;
 			children = (
+				DB8F347C2B8EE39F00E3B7ED /* ContentView.swift */,
+				DB8F34852B8EE3D900E3B7ED /* CourseCardView.swift */,
+				DB8F34882B8EE3D900E3B7ED /* CustomTabView.swift */,
+				DB8F34892B8EE3DA00E3B7ED /* DetailView.swift */,
+				DB8F34872B8EE3D900E3B7ED /* Email.swift */,
+				DB8F34862B8EE3D900E3B7ED /* Home.swift */,
+				DB8F34842B8EE3D900E3B7ED /* TabButton.swift */,
 				DB8F346A2B8EE34E00E3B7ED /* NaufalCourseUIApp.swift */,
-				DB8F346C2B8EE34E00E3B7ED /* ContentView.swift */,
-				DB8F346E2B8EE35000E3B7ED /* Assets.xcassets */,
+				DB8F34902B8EE4F700E3B7ED /* Course.swift */,
+				DB8F34782B8EE36E00E3B7ED /* Assets.xcassets */,
 				DB8F34702B8EE35000E3B7ED /* Preview Content */,
 			);
 			path = NaufalCourseUI;
@@ -125,8 +146,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8F34792B8EE36E00E3B7ED /* Assets.xcassets in Resources */,
 				DB8F34722B8EE35000E3B7ED /* Preview Assets.xcassets in Resources */,
-				DB8F346F2B8EE35000E3B7ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8F346D2B8EE34E00E3B7ED /* ContentView.swift in Sources */,
+				DB8F34912B8EE4F700E3B7ED /* Course.swift in Sources */,
+				DB8F348E2B8EE3DA00E3B7ED /* DetailView.swift in Sources */,
+				DB8F348A2B8EE3DA00E3B7ED /* CourseCardView.swift in Sources */,
+				DB8F348C2B8EE3DA00E3B7ED /* Email.swift in Sources */,
+				DB8F348F2B8EE3DA00E3B7ED /* Home.swift in Sources */,
+				DB8F348B2B8EE3DA00E3B7ED /* CustomTabView.swift in Sources */,
 				DB8F346B2B8EE34E00E3B7ED /* NaufalCourseUIApp.swift in Sources */,
+				DB8F347F2B8EE39F00E3B7ED /* ContentView.swift in Sources */,
+				DB8F348D2B8EE3DA00E3B7ED /* TabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
